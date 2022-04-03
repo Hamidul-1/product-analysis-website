@@ -1,3 +1,8 @@
+nav{
+    background-color: rgb(101, 101, 196);
+    align-items: center;
+    padding: 20px 50px;
+}
 nav a{
     text-decoration: none;
     color: black;

@@ -1,48 +1,48 @@
 [
     {
-      "_id": "623853b2614ad5aba311fdd1",
-      "picture": "https://ibb.co/yX3rwTc",
+      "id": "623853b2614ad5aba311fdd1",
+      "picture": "https://i.ibb.co/80hHW3L/istockphoto-1212702108-612x612.jpg",
       "name": "Hank Aaron",
       "review":"Good",
       "rating": "5"
     },
     {
-      "_id": "623853b2578e9e6ad1ae0dd5",
-      "picture": "https://ibb.co/wK6F72n",
+      "id": "623853b2578e9e6ad1ae0dd5",
+      "picture": "https://i.ibb.co/mHzV0Pn/istockphoto-1319763895-612x612.jpg",
       "name": "W. H. Auden",
       "review":"Good",
       "rating": "3"
     },
     {
-      "_id": "623853b21fb149d2ee7b76c7",
-      "picture": "https://ibb.co/hDtxFmQ",
+      "id": "623853b21fb149d2ee7b76c7",
+      "picture": "https://i.ibb.co/J5MWjs6/istockphoto-1187582500-612x612.jpg",
       "name": "Ba Jin",
       "review":"Good",
       "rating": "4.5"
     },
     {
-      "_id": "623853b2e91c8de578c9245e",
-      "picture": "https://ibb.co/jztyC71",
+      "id": "623853b2e91c8de578c9245e",
+      "picture": "https://i.ibb.co/Mfdczq3/istockphoto-1249420269-612x612.jpg",
       "name": "Francis Bacon",
       "review":"Good",
       "rating": "5"
     },
     {
-      "_id": "623853b2239582e48409ccc6",
-      "picture": "https://ibb.co/NLwtC6D",
+      "id": "623853b2239582e48409ccc6",
+      "picture": "https://i.ibb.co/4jBKtZv/istockphoto-1179420343-612x612.jpg",
       "name": "Carl Becker",
       "review":"Good",
       "rating": "4"
     },
     {
-      "_id": "623853b2cdda0d5bc294f791",
-      "picture": "https://ibb.co/xgbvk2g",
+      "id": "623853b2cdda0d5bc294f791",
+      "picture": "https://i.ibb.co/R6KnFg6/istockphoto-1270067126-612x612.jpg",
       "name": "Roy Bean",
       "review":"Good",
       "rating": "4.5"
     },
     {
-      "_id": "623853b2736f19fd4eb8d44a",
+      "id": "623853b2736f19fd4eb8d44a",
       "index": 6,
       "price": 41,
       "picture": "https://i.pinimg.com/236x/af/96/95/af9695e0116a1d859336024e6cdcea10.jpg",
