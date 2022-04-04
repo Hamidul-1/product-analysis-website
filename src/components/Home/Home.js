@@ -8,12 +8,12 @@ import './Home.css'
 
 const Home = () => {
     const [review, setReview] = useReview();
-    const [cart,setCart] = useState([]);
+    const [cart, setCart] = useState([]);
     const navigate = useNavigate();
 
 
 
-    const showAll = () =>{
+    const showAll = () => {
         navigate(`/reviews`)
     }
     return (
@@ -28,9 +28,9 @@ const Home = () => {
                     <img src={apple} alt="" />
                 </div>
             </div>
-            
+
             <div>
-                <h3>Customer Review</h3>
+                <h3 className='p-5'>Customer Reviews(3)</h3>
                 <hr className='w-75 mx-auto' />
                 <div className='row row-cols-1 row-cols-md-3 g-3 mt-3 mb-5 container mx-auto'>
                     {
@@ -39,9 +39,6 @@ const Home = () => {
                             review={review}
                         ></CustomerReview>)
                     }
-                </div>
-                <div>
-                    <button className='btn btn-success px-3' onClick={showAll}>See more</button>
                 </div>
             </div>
         </div>

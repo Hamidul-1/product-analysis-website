@@ -11,7 +11,7 @@ const CustomerReview = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">Name: <span className='text-success'>{name}</span></h5>
                     <p className="card-text">{review}</p>
-                    <small>Ratings: {rating}</small>
+                    <small>Rating: {rating}</small>
                 </div>
             </div>
         </div>
