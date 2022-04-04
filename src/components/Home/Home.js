@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import apple from '../../image/apple.jpg'
 import CustomerReview from '../CustomerReview/CustomerReview';
 import useReview from '../hook/useReview';
@@ -7,18 +8,27 @@ import './Home.css'
 
 const Home = () => {
     const [review, setReview] = useReview();
+    const [cart,setCart] = useState([]);
+    const navigate = useNavigate();
+
+
+
+    const showAll = () =>{
+        navigate(`/reviews`)
+    }
     return (
-        <div className='container-fluid'>
-            <div className='row row-cols-1 row-cols-md-2 d-flex align-items-center justify-content-center '>
+        <div className='container'>
+            <div className='d-lg-flex p-5'>
                 <div className="heading">
                     <h1>Apple Watch</h1>
                     <p>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication, and integrates with iOS and other Apple products and services.</p>
-                    <button>More Details</button>
+                    <button className='btn btn-success px-3'>More Details</button>
                 </div>
                 <div className="image">
-                    <img className='img-fluid' src={apple} alt="" />
+                    <img src={apple} alt="" />
                 </div>
             </div>
+            
             <div>
                 <h3>Customer Review</h3>
                 <hr className='w-75 mx-auto' />
@@ -29,10 +39,9 @@ const Home = () => {
                             review={review}
                         ></CustomerReview>)
                     }
-
                 </div>
                 <div>
-                    <button>See more</button>
+                    <button className='btn btn-success px-3' onClick={showAll}>See more</button>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './CustomerReview.css';
 
 const CustomerReview = (props) => {
     const { name, picture, review, rating } = props.review;

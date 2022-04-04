@@ -1,12 +1,12 @@
 .header-menu {
     background-color: rgb(8, 119, 82);
     padding: 20px 0;
-    font-size: 18px;
+    font-size: 15px;
     width: 100%;
 }
 
 .link {
-    padding: 20px 15px;
+    padding: 5px ;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
