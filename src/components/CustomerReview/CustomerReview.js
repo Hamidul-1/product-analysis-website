@@ -1,16 +1,18 @@
 import React from 'react';
 
 const CustomerReview = (props) => {
-    const { name, picture, review, rating } = props.review
+    const { name, picture, review, rating } = props.review;
     return (
-        <div className='col'>
-            <img src={picture} className="card-img-top" alt="" />
-            <div>
-                <h1>name: {name}</h1>
-                <p>Review: {review}</p>
-                <p><small>{rating}</small></p>
+        
+        <div className="col">
+            <div className="card card-shadow h-100">
+                <img src={picture} className="card-img-top" alt="..." />
+                <div className="card-body">
+                    <h5 className="card-title">Name: <span className='text-success'>{name}</span></h5>
+                    <p className="card-text">{review}</p>
+                    <small>Ratings: {rating}</small>
+                </div>
             </div>
-
         </div>
     );
 };

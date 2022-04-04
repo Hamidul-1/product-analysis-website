@@ -13,7 +13,7 @@ const Blogs = () => {
                 <div>
                     <h2>What is a semantic tag?</h2>
                     <p>
-                    Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
+                        Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.Elements such as <header /> , <footer /> and <article /> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
                     </p>
                 </div>
             </div>

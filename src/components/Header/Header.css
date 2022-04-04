@@ -1,14 +1,19 @@
-nav{
-    background-color: rgb(101, 101, 196);
-    align-items: center;
-    padding: 20px 50px;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-    margin-right: 20px;
+.header-menu {
+    background-color: rgb(8, 119, 82);
+    padding: 20px 0;
+    font-size: 18px;
+    width: 100%;
 }
 
-nav a:hover{
-    color: orangered;
+.link {
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
+
+
+/* .manubar-item:hover {
+    color: #000;
+    border-bottom: 2px solid red;
+} */
