@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>Copyright &copy; all right researved by <span class="highlight">Md Hamidul Islam</span></p>
+            <p>Copyright &copy; all right reserved by Md Hamidul Islam</p>
         </div>
     );
 };

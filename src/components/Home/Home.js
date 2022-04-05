@@ -40,6 +40,7 @@ const Home = () => {
                         ></CustomerReview>)
                     }
                 </div>
+                <button className='btn btn-success px-3' onClick={showAll}>More Details</button>
             </div>
         </div>
     );
