@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-# App name - Apple watch
+# App name - Apple Watch Review App
 # Website link-(https://apple-watch-react-app.netlify.app/)
 * This is a Apple watch review app.
 * Our best client to review us.
